@@ -1,0 +1,387 @@
+main {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  opacity: 0;
+  -webkit-animation: appearMain 0.5s forwards;
+          animation: appearMain 0.5s forwards;
+}
+@-webkit-keyframes appearMain {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appearMain {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.leftSide {
+  background: rgb(200, 200, 200);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.leftSide ::after {
+  content: "@2025-JUSKOWIAK Fabrice";
+  position: absolute;
+  color: rgb(15, 15, 15);
+  bottom: 0;
+  left: 0px;
+  text-shadow: 0px 0px 0px #b1aaaa;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.3vw;
+  font-weight: 300;
+}
+.leftSide .Selfie-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.leftSide #selfie {
+  margin: 0px auto 0 auto;
+  width: 50%;
+  border-radius: 0 0 15% 15%;
+  z-index: 100;
+}
+.leftSide .bloc {
+  background: rgb(230, 230, 230);
+  margin: 0px 0 15px 0;
+  padding: 2px 4px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 5px #777777;
+          box-shadow: 2px 2px 5px #777777;
+  width: 75%;
+  height: 100px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 1405px) {
+  .leftSide .bloc {
+    font-size: 0.9rem;
+    height: 90px;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .leftSide .bloc {
+    font-size: 0.8rem;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .leftSide .bloc {
+    font-size: 0.7rem;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .leftSide .bloc {
+    font-size: 0.6rem;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 865px) {
+  .leftSide .bloc {
+    font-size: 0.5rem;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .leftSide .bloc {
+    font-size: 0.45rem;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .leftSide .bloc {
+    font-size: 0.4rem;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 595px) {
+  .leftSide .bloc {
+    font-size: 0.35rem;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .leftSide .bloc {
+    font-size: 0.3rem;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .leftSide .bloc {
+    font-size: 0.25rem;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .leftSide .bloc {
+    font-size: 0.2rem;
+    height: 25px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .leftSide .bloc {
+    font-size: 0.15rem;
+    height: 20px;
+  }
+}
+.leftSide #Contact {
+  opacity: 0;
+  -webkit-animation: appearContact 1.5s forwards;
+          animation: appearContact 1.5s forwards;
+}
+@-webkit-keyframes appearContact {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes appearContact {
+  to {
+    opacity: 1;
+  }
+}
+.leftSide #Langues {
+  opacity: 0;
+  -webkit-animation: appearLangues 1.5s forwards;
+          animation: appearLangues 1.5s forwards;
+}
+@-webkit-keyframes appearLangues {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appearLangues {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.leftSide #Competences {
+  opacity: 0;
+  -webkit-animation: appearCompetences 3s forwards;
+          animation: appearCompetences 3s forwards;
+}
+@-webkit-keyframes appearCompetences {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appearCompetences {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.leftSide #CentreInteret {
+  opacity: 0;
+  -webkit-animation: appearCentreInteret 4.5s forwards;
+          animation: appearCentreInteret 4.5s forwards;
+}
+@-webkit-keyframes appearCentreInteret {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appearCentreInteret {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.leftSide #Complements {
+  opacity: 0;
+  -webkit-animation: appearComplements 6s forwards;
+          animation: appearComplements 6s forwards;
+}
+@-webkit-keyframes appearComplements {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appearComplements {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.rightSide {
+  background: rgb(150, 150, 150);
+}
+.rightSide #nom {
+  color: rgb(15, 15, 15);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3.5vw;
+  text-align: right;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px #b1aaaa;
+  z-index: 200;
+}
+.rightSide #Fonction {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3vw;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 3px #b1aaaa;
+  z-index: 50;
+}
+.rightSide .BlocRS {
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+  background: rgb(230, 230, 230);
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 5px #b1aaaa;
+          box-shadow: 2px 2px 5px #b1aaaa;
+  opacity: 0;
+  -webkit-animation: appearBlocsRS 6s forwards;
+          animation: appearBlocsRS 6s forwards;
+}
+@-webkit-keyframes appearBlocsRS {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appearBlocsRS {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.rightSide .BlocRS h3 {
+  border-bottom: 2px solid rgb(180, 180, 180);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 2vw;
+}
+.rightSide .BlocRS .Entreprise {
+  font-size: 1.5vw;
+  margin-bottom: 5px;
+  font-style: italic;
+  -webkit-text-decoration: dotted underline;
+          text-decoration: dotted underline;
+}
+.rightSide .BlocRS .Annees {
+  font-size: 1.3vw;
+  margin-bottom: 5px;
+  font-style: italic;
+  color: rgb(150, 150, 150);
+}
+.rightSide .BlocRS p, .rightSide .BlocRS li {
+  font-size: 1.5vw;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.rightSide .BlocRS p {
+  font-weight: 700;
+}
+.rightSide .BlocRS ul {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+.rightSide .BlocRS li {
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(150, 150, 150);
+  color: rgb(15, 15, 15);
+}/*# sourceMappingURL=index.css.map */

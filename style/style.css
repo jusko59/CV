@@ -1,0 +1,22 @@
+main {
+  background: skyblue;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.leftSide {
+  background: greenyellow;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 900px) {
+  main {
+    background: red;
+  }
+}
